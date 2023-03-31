@@ -1,0 +1,32 @@
+.gradient-animation {
+  background: linear-gradient(232deg, #0026fd, #00ff2a);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+/* .gradient-text {
+  background: #16AB05;
+background: linear-gradient(to right, #16AB05 0%, #0A1ECF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+} */
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
