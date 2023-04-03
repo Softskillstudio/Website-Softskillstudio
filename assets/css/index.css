@@ -563,3 +563,30 @@ margin-right: 1vmin; */
   min-height: 640px;
   height: 100%;
 }
+
+.profile-picture {
+  max-width: 50vmin;
+  /* height: auto; */
+  max-height: 50vmin;
+
+  min-height: 40vmin;
+  min-width: 40vmin;
+  border-radius: 50vmax;
+  border-width: 2px;
+  border-color: #006094;
+  border-style: solid;
+  aspect-ratio: 1;
+}
+
+.picture-gallery-container{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.picture-gallery-item{
+  /* aspect-ratio: 1; */
+  max-width: 20vmax;
+  max-height: 20vmax;
+  /* width: 20%; */
+}
